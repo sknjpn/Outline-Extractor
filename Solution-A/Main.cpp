@@ -2,7 +2,7 @@
 
 void Main()
 {
-	Window::SetTitle("Outline Extractor");
+	Window::SetTitle(U"Outline Extractor");
 
 	Image image(U"image/image-1.png");
 	Texture texture(image);
