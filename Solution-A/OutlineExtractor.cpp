@@ -22,17 +22,6 @@ Point OutlineExtractor::GetPosition(const int direction)
 	throw Error(U"‘¶İ‚µ‚È‚¢•ûŒü‚ª‘ã“ü‚³‚ê‚Ü‚µ‚½");
 }
 
-Array<Vec2> OutlineExtractor::GetOutline(const Image& image, const double threshold)
-{
-	Array<Vec2> result;
-
-	// ’Tõ
-
-
-
-	return Array<Vec2>();
-}
-
 Array<Array<Point>> OutlineExtractor::GetOutlines(const Image& image, const double threshold)
 {
 	Array<Array<Point>> result;
