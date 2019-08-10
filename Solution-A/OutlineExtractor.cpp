@@ -19,7 +19,7 @@ Point OutlineExtractor::GetPosition(const int direction)
 	case 7: return Point(1, -1);
 	}
 
-	throw Error(U"‘¶İ‚µ‚È‚¢•ûŒü‚ª‘ã“ü‚³‚ê‚Ü‚µ‚½");
+	throw Error(U"‘¶İ‚µ‚È‚¢•ûŒü`{}`‚ª‘ã“ü‚³‚ê‚Ü‚µ‚½"_fmt(direction));
 }
 
 Array<Array<Point>> OutlineExtractor::GetOutlines(const Image& image, const double threshold)
