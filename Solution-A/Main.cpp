@@ -1,4 +1,4 @@
-﻿
+﻿#include "OutlineExtractor.h"
 
 void Main()
 {
@@ -10,5 +10,6 @@ void Main()
 	while (System::Update())
 	{
 		texture.draw();
+		OutlineExtractor::GetOutlines(image);
 	}
 }
