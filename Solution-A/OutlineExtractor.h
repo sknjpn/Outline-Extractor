@@ -1,6 +1,6 @@
 #pragma once
 
-class OutlineExtractor
+namespace OutlineExtractor
 {
 };
 
