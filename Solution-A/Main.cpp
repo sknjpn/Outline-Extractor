@@ -31,7 +31,7 @@ void Main()
 				auto p1 = Vec2::One() * 0.5 + outline[i];
 				auto p2 = Vec2::One() * 0.5 + outline[i + 1];
 
-				Line(p1, p2).draw(0.5, ColorF(HSV(i), 0.5));
+				Line(p1, p2).draw(0.5, ColorF(HSV(i*15), 0.5));
 			}
 		}
 	}
