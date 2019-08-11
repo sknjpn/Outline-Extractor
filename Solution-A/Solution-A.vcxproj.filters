@@ -90,7 +90,7 @@
     <ClCompile Include="stdafx.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="OutlineExtractor.cpp">
+    <ClCompile Include="OutlineDetector.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
@@ -310,7 +310,7 @@
     <ClInclude Include="stdafx.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="OutlineExtractor.h">
+    <ClInclude Include="OutlineDetector.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
